@@ -1,2 +1,2 @@
 # gradle-skilldrill
-Skill drill 2
+Skill Drill 2 - here we go.
