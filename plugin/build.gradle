@@ -20,6 +20,7 @@ repositories {
 dependencies {
     // Use JUnit test framework for unit tests
     testImplementation 'junit:junit:4.13'
+    compile 'com.google.code.gson:gson:2.8.6'
     
 }
 

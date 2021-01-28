@@ -1,14 +1,24 @@
 package edu.isu.cs.cs2263;
 
-public class course {
+import java.io.Serializable;
+
+public class Course implements Serializable {
     // variables
-    private int number;
     private String subject;
+    private int number;
     private String title;
 
     //methods
-    public course(){
+    public Course(){
+        subject = "N/A";
+        number = 1234;
+        title = "Default";
+    }
 
+    public Course(String subject, int number, String title) {
+        this.subject = subject;
+        this.number = number;
+        this.title = title;
     }
 
     public int getNumber() {
